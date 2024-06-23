@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-06-21T05:50:45.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="GNhty6wN8TGQ0wZKZfVj" version="21.6.1" type="device">
+<mxfile host="Electron" modified="2024-06-23T07:54:31.348Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="zYaNlE-0zH2f_Yd_JHU0" version="21.6.1" type="device">
   <diagram name="페이지-1" id="05k3A8qEgXLGpjVdd8z4">
-    <mxGraphModel dx="2261" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="2022" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,6 +78,18 @@
         </mxCell>
         <mxCell id="EDXE8RHx-zJdLqeyHTM2-26" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-member&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: 회원 서비스&lt;/span&gt;&lt;/div&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-content&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;: 콘텐츠 서비스&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-social-graph&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;: 소셜 그래프 서비스&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-notification&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;: 알림 서비스&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-media&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;: 미디어 서비스&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-messaging&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;: 메시징 서비스&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-search&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;: 검색 서비스&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-analytics&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;: 분석 서비스&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;pulse-recommendation&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;: 추천 서비스&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;pulse-event-lib&lt;/b&gt;: 이벤트 관련 공통 로직 라이브러리&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fillColor=default;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="-630" y="220" width="262" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="x6-yN1iA4uWycwHVmHdx-1" value="Gateway&lt;br&gt;&lt;br&gt;게이트웨이 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-26" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6-yN1iA4uWycwHVmHdx-2" value="Batch&lt;br&gt;&lt;br&gt;배치 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6-yN1iA4uWycwHVmHdx-3" value="gateway&lt;br&gt;&lt;br&gt;API gateway 구현" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-16" y="1010" width="200" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="x6-yN1iA4uWycwHVmHdx-4" value="&amp;nbsp;batch&lt;br&gt;&lt;br&gt;이벤트 재발행,&lt;br&gt;데이터 쌓기" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1010" width="200" height="185" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
