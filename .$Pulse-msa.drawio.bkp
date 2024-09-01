@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-09-01T01:40:40.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="TzLODNf8u1cqAu6htyJF" version="21.6.1" type="device">
+<mxfile host="Electron" modified="2024-09-01T01:40:37.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="qO7-r_mWJG-nJ3DhUiO3" version="21.6.1" type="device">
   <diagram name="페이지-1" id="05k3A8qEgXLGpjVdd8z4">
     <mxGraphModel dx="2222" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -50,7 +50,7 @@
           <mxGeometry x="-16" y="570" width="200" height="185" as="geometry" />
         </mxCell>
         <mxCell id="EDXE8RHx-zJdLqeyHTM2-15" value="notification&lt;br&gt;&lt;br&gt;알림 생성(새 개시물, 댓글, 친구 요청 등)&lt;br&gt;알림 조회 및 관리&lt;br&gt;실시간 알림 전송(앱 내 알림, 외부 푸시 알림, 이메일 등)&lt;br&gt;알림 맞춤 설정 (사용자가 원하는 대로)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="570" width="200" height="185" as="geometry" />
+          <mxGeometry x="214" y="572.5" width="200" height="185" as="geometry" />
         </mxCell>
         <mxCell id="EDXE8RHx-zJdLqeyHTM2-16" value="media&lt;br&gt;&lt;br&gt;이미지 및 비디오 업로드&lt;br&gt;미디어 편집 (자르기, 필터 적용 등)&lt;br&gt;사용자 개인 미디어 파일 저장 및 관리&lt;br&gt;실시간 스트리밍 기능 제공" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-520" y="790" width="200" height="185" as="geometry" />
