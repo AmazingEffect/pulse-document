@@ -1,0 +1,14 @@
+# 전체 실행 명령어
+kubectl apply -f jaeger.yaml
+kubectl apply -f kafka.yaml
+kubectl apply -f mongodb.yaml
+kubectl apply -f postgres.yaml
+
+# 전체 삭제
+kubectl delete namespace monitoring
+kubectl delete namespace kafka-system
+
+kubectl delete -f jaeger.yaml
+kubectl delete -f kafka.yaml
+kubectl delete -f mongodb.yaml
+kubectl delete -f postgres.yaml
