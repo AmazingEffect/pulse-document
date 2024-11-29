@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-11-26T14:40:26.144Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="kbD9I-v1WeP0McqKUEuK" version="21.6.1" type="device" pages="9">
+<mxfile host="Electron" modified="2024-11-29T07:50:18.544Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="Yj34h1aC913eR4CgwMAh" version="21.6.1" type="device" pages="11">
   <diagram name="메인" id="05k3A8qEgXLGpjVdd8z4">
     <mxGraphModel dx="2261" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -1460,7 +1460,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_58jGMEn89Fp7RvXZgo-" name="DDD 설계">
-    <mxGraphModel dx="1889" dy="1802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="2023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1509,20 +1509,20 @@
         <mxCell id="GYRAQL3bq4Wzl1Q3Q4Tg-7" value="초기단계&lt;br&gt;콘텐츠와 피드 서버는 같은 RDB&lt;br&gt;&lt;br&gt;고도화&lt;br&gt;콘텐츠는 RDB, 피드는 NoSQL (CQRS)" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="-760" y="-440" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="bfvXPWXWvaLswy_guRDe-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="bfvXPWXWvaLswy_guRDe-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-330" y="-440" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bfvXPWXWvaLswy_guRDe-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="bfvXPWXWvaLswy_guRDe-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-230" y="-440" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="x5dN8hRpPSNedP6X4x4b-1" value="시나리오화&lt;br&gt;useCase&lt;br&gt;&lt;br&gt;상황: 사용자가 글을 작성한다.&lt;br&gt;&lt;br&gt;// given&lt;br&gt;어떤 사용자인지 (로그인)&lt;br&gt;글 작성 버튼을 누른다.&lt;br&gt;&lt;br&gt;// when&lt;br&gt;글을 작성하면&lt;br&gt;&lt;br&gt;// then&lt;br&gt;글이 등록된다.&lt;br&gt;피드에 등록한 글이 표시된다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="x5dN8hRpPSNedP6X4x4b-1" value="시나리오화&lt;br&gt;useCase&lt;br&gt;&lt;br&gt;상황: 사용자가 글을 작성한다.&lt;br&gt;&lt;br&gt;// given&lt;br&gt;어떤 사용자인지 (로그인)&lt;br&gt;글 작성 버튼을 누른다.&lt;br&gt;&lt;br&gt;// when&lt;br&gt;글을 작성하면&lt;br&gt;&lt;br&gt;// then&lt;br&gt;글이 등록된다.&lt;br&gt;피드에 등록한 글이 표시된다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-100" y="-585" width="247.5" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="AxiBIzGdmZI0KapcKxVp" name="콘텐츠 - 서브 도메인">
-    <mxGraphModel dx="2193" dy="1982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2537" dy="2407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1569,7 +1569,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PIFKhqnKAOdyse0VVaei-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ur8ZqfCSiZDdpRFwYjzY-10" target="ur8ZqfCSiZDdpRFwYjzY-11">
+        <mxCell id="PIFKhqnKAOdyse0VVaei-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ur8ZqfCSiZDdpRFwYjzY-10" target="ur8ZqfCSiZDdpRFwYjzY-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-32" y="190" />
@@ -1577,7 +1577,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PIFKhqnKAOdyse0VVaei-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ur8ZqfCSiZDdpRFwYjzY-10" target="ur8ZqfCSiZDdpRFwYjzY-12">
+        <mxCell id="PIFKhqnKAOdyse0VVaei-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ur8ZqfCSiZDdpRFwYjzY-10" target="ur8ZqfCSiZDdpRFwYjzY-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-32" y="190" />
@@ -1981,35 +1981,35 @@
         <mxCell id="ur8ZqfCSiZDdpRFwYjzY-106" value="id&lt;br&gt;회원 ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-199" y="550" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CBiJDMUxPoP-aQumzjcc-1" value="콘텐츠&lt;br&gt;&lt;br&gt;게시물 CRUD (쓰기중심)&lt;br&gt;미디어 파일 업로드(S3 연동)&lt;br&gt;게시물의 메타데이터 관리(DB)&lt;br&gt;(핵심 서브도메인)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="CBiJDMUxPoP-aQumzjcc-1" value="콘텐츠&lt;br&gt;&lt;br&gt;게시물 CRUD (쓰기중심)&lt;br&gt;미디어 파일 업로드(S3 연동)&lt;br&gt;게시물의 메타데이터 관리(DB)&lt;br&gt;(핵심 서브도메인)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-760" y="-120" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="CBiJDMUxPoP-aQumzjcc-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ur8ZqfCSiZDdpRFwYjzY-1" target="CBiJDMUxPoP-aQumzjcc-1">
+        <mxCell id="CBiJDMUxPoP-aQumzjcc-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ur8ZqfCSiZDdpRFwYjzY-1" target="CBiJDMUxPoP-aQumzjcc-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-120" y="400" as="sourcePoint" />
             <mxPoint x="-70" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CBiJDMUxPoP-aQumzjcc-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.345;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ur8ZqfCSiZDdpRFwYjzY-1" target="CBiJDMUxPoP-aQumzjcc-1">
+        <mxCell id="CBiJDMUxPoP-aQumzjcc-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.345;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ur8ZqfCSiZDdpRFwYjzY-1" target="CBiJDMUxPoP-aQumzjcc-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-720" y="80" as="sourcePoint" />
             <mxPoint x="-655" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PIFKhqnKAOdyse0VVaei-3" value="&lt;strong style=&quot;background-color: initial;&quot;&gt;Aggregate&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;는 관련된 여러 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;모델&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(엔티티와 VO)의 집합입니다.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Aggregate Root&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;는 Aggregate의 진입점이자 대표 엔티티로, 외부에서 Aggregate에 접근할 수 있는 유일한 진입점입니다.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;엔티티&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;와 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;VO&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;는 각각 독립적인 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;모델&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;로 간주되며, Aggregate 내에서 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Aggregate Root&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;를 통해서만 접근하고 관리됩니다.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Post&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Aggregate의 경우, &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;Post&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; (Aggregate Root)가 &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;Attachment(entity)&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;와 &lt;font face=&quot;monospace&quot;&gt;Content(VO)&lt;/font&gt;&lt;/span&gt;를 포함하고, 이들을 관리하는 종속 관계를 형성합니다.&lt;br&gt;&lt;br&gt;DDD의 관점에서&amp;nbsp;&lt;code style=&quot;border-color: var(--border-color);&quot;&gt;Post&lt;/code&gt;&amp;nbsp;엔티티와&amp;nbsp;&lt;code style=&quot;border-color: var(--border-color);&quot;&gt;Content&lt;/code&gt;&amp;nbsp;(VO)는 모두 개별적인 모델이지만, 이들이 함께&amp;nbsp;&lt;strong style=&quot;border-color: var(--border-color);&quot;&gt;Aggregate&lt;/strong&gt;를 형성하며, 이 Aggregate는 하나의 일관된 단위로 관리됩니다.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Post Aggregate&lt;/strong&gt;는 &lt;strong&gt;Post(entity) 모델&lt;/strong&gt;, &lt;strong&gt;Content(VO) 모델&lt;/strong&gt;, &lt;strong&gt;Attachment(entity) 모델&lt;/strong&gt;의 집합으로 구성됩니다.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;여기서 Post(entity) 모델이 Aggregate Root가 됩니다.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PIFKhqnKAOdyse0VVaei-3" value="&lt;strong style=&quot;background-color: initial;&quot;&gt;Aggregate&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;는 관련된 여러 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;모델&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(엔티티와 VO)의 집합입니다.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Aggregate Root&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;는 Aggregate의 진입점이자 대표 엔티티로, 외부에서 Aggregate에 접근할 수 있는 유일한 진입점입니다.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;엔티티&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;와 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;VO&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;는 각각 독립적인 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;모델&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;로 간주되며, Aggregate 내에서 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Aggregate Root&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;를 통해서만 접근하고 관리됩니다.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Post&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Aggregate의 경우, &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;Post&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; (Aggregate Root)가 &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;Attachment(entity)&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;와 &lt;font face=&quot;monospace&quot;&gt;Content(VO)&lt;/font&gt;&lt;/span&gt;를 포함하고, 이들을 관리하는 종속 관계를 형성합니다.&lt;br&gt;&lt;br&gt;DDD의 관점에서&amp;nbsp;&lt;code style=&quot;border-color: var(--border-color);&quot;&gt;Post&lt;/code&gt;&amp;nbsp;엔티티와&amp;nbsp;&lt;code style=&quot;border-color: var(--border-color);&quot;&gt;Content&lt;/code&gt;&amp;nbsp;(VO)는 모두 개별적인 모델이지만, 이들이 함께&amp;nbsp;&lt;strong style=&quot;border-color: var(--border-color);&quot;&gt;Aggregate&lt;/strong&gt;를 형성하며, 이 Aggregate는 하나의 일관된 단위로 관리됩니다.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Post Aggregate&lt;/strong&gt;는 &lt;strong&gt;Post(entity) 모델&lt;/strong&gt;, &lt;strong&gt;Content(VO) 모델&lt;/strong&gt;, &lt;strong&gt;Attachment(entity) 모델&lt;/strong&gt;의 집합으로 구성됩니다.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;여기서 Post(entity) 모델이 Aggregate Root가 됩니다.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-119" y="-210" width="409" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="PIFKhqnKAOdyse0VVaei-4" value="&lt;h4&gt;&lt;strong&gt;개별 모델로서의 엔티티들&lt;/strong&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Post 모델&lt;/strong&gt;: &lt;code&gt;Post&lt;/code&gt; 엔티티는 Aggregate Root로서 하나의 모델입니다.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Content 모델&lt;/strong&gt;: &lt;code&gt;Content&lt;/code&gt;&amp;nbsp;VO는 별도의 모델로 간주됩니다.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Attachment 모델&lt;/strong&gt;: &lt;code&gt;Attachment&lt;/code&gt; 엔티티 역시 별도의 모델로 간주됩니다.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;이들 각각은 &lt;strong&gt;개별 모델&lt;/strong&gt;로 간주되지만, &lt;strong&gt;Post Aggregate&lt;/strong&gt; 내에서 &lt;strong&gt;Post&lt;/strong&gt;라는 &lt;strong&gt;Aggregate Root&lt;/strong&gt;를 통해서만 접근하고 관리됩니다. 따라서, &lt;code&gt;Post&lt;/code&gt;는 Aggregate Root로서 &lt;code&gt;Content&lt;/code&gt;와 &lt;code&gt;Attachment&lt;/code&gt;를 포함하는 단일 일관된 모델을 형성합니다.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Post (Aggregate Root)&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Content (엔티티)&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Attachment (엔티티들)&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;&lt;strong&gt;Aggregate 내 모델의 관계&lt;/strong&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Post Aggregate&lt;/strong&gt;는 &lt;strong&gt;Post 모델&lt;/strong&gt;, &lt;strong&gt;Content 모델&lt;/strong&gt;, &lt;strong&gt;Attachment 모델&lt;/strong&gt;의 집합으로 구성됩니다.&lt;/li&gt;&lt;li&gt;Aggregate Root (Post)는 이들 모델을 관리하며, 외부에서의 접근을 통제합니다.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="308" y="-290" width="409" height="340" as="geometry" />
+        <mxCell id="PIFKhqnKAOdyse0VVaei-4" value="&lt;h4&gt;&lt;strong&gt;개별 모델로서의 엔티티들&lt;/strong&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Post 모델&lt;/strong&gt;: &lt;code&gt;Post&lt;/code&gt; 엔티티는 Aggregate Root로서 하나의 모델입니다.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Content 모델&lt;/strong&gt;: &lt;code&gt;Content&lt;/code&gt;&amp;nbsp;VO는 별도의 모델로 간주됩니다.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Attachment 모델&lt;/strong&gt;: &lt;code&gt;Attachment&lt;/code&gt; 엔티티 역시 별도의 모델로 간주됩니다.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;이들 각각은 &lt;strong&gt;개별 모델&lt;/strong&gt;로 간주되지만, &lt;strong&gt;Post Aggregate&lt;/strong&gt; 내에서 &lt;strong&gt;Post&lt;/strong&gt;라는 &lt;strong&gt;Aggregate Root&lt;/strong&gt;를 통해서만 접근하고 관리됩니다. 따라서, &lt;code&gt;Post&lt;/code&gt;는 Aggregate Root로서 &lt;code&gt;Content&lt;/code&gt;와 &lt;code&gt;Attachment&lt;/code&gt;를 포함하는 단일 일관된 모델을 형성합니다.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Post (Aggregate Root)&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Content (VO)&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Attachment (엔티티들)&lt;br&gt;&lt;br&gt;&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;strong&gt;Aggregate 내의 구조&lt;/strong&gt;는 단일 Aggregate Root를 중심으로, 그에 종속된 다른 엔티티나 VO가 포함되는 &lt;strong&gt;종속적 구조&lt;/strong&gt;를 가집니다.&lt;/b&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;h4&gt;&lt;strong&gt;Aggregate 내 모델의 관계&lt;/strong&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Post Aggregate&lt;/strong&gt;는 &lt;strong&gt;Post 모델&lt;/strong&gt;, &lt;strong&gt;Content 모델&lt;/strong&gt;, &lt;strong&gt;Attachment 모델&lt;/strong&gt;의 집합으로 구성됩니다.&lt;/li&gt;&lt;li&gt;Aggregate Root (Post)는 이들 모델을 관리하며, 외부에서의 접근을 통제합니다.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;최종 정리&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;DDD에서 &lt;strong&gt;Aggregate&lt;/strong&gt;는 &lt;strong&gt;단일 Aggregate Root&lt;/strong&gt;를 중심으로 구성되며, 내부에 있는 모든 엔티티와 VO는 Aggregate Root에 종속됩니다. 이는 Aggregate의 일관성을 유지하고, 외부에서의 무분별한 접근을 방지하기 위한 중요한 설계 원칙입니다. &lt;strong&gt;Post Aggregate&lt;/strong&gt;의 예시에서 &lt;code&gt;Post&lt;/code&gt;는 Aggregate Root로서 &lt;code&gt;Content&lt;/code&gt;와 &lt;code&gt;Attachment&lt;/code&gt;를 포함하고, 이들은 &lt;code&gt;Post&lt;/code&gt;를 통해서만 접근되고 관리됩니다.&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="308" y="-480" width="409" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="PIFKhqnKAOdyse0VVaei-5" value="&lt;h4&gt;&lt;p&gt;DDD에서 Aggregate는 단일 Aggregate Root를 가져야 합니다.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;일관성 유지: Aggregate Root를 통해서만 Aggregate 내부의 객체들에 접근하고 수정할 수 있기 때문에, 데이터의 일관성을 유지할 수 있습니다.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;경계 정의: Aggregate Root는 Aggregate의 경계를 명확히 정의하며, 외부에서 내부 객체들에 직접 접근하지 못하게 합니다.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;트랜잭션 관리: Aggregate는 하나의 트랜잭션 단위로 관리됩니다. Aggregate Root를 통해서만 변경이 이루어지므로, 트랜잭션 내에서 일관된 상태를 유지할 수 있습니다.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;구성 이해하기&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Post 엔티티&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;는 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Aggregate Root&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;로서 &lt;/span&gt;&lt;code style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Content VO&lt;/code&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;와 &lt;/span&gt;&lt;code style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Attachment&lt;/code&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt; 엔티티를 포함합니다.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Content&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;와 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Attachment&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;는 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Post&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;를 통해서만 접근하거나 수정할 수 있으며, 이들은 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Post&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;의 라이프사이클에 종속됩니다.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Aggregate 내부의 구조는 반드시 계층적이어야 하는 것은 아니지만, 모든 내부 객체들이 &lt;strong&gt;Aggregate Root&lt;/strong&gt;에 종속적이어야 합니다.&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PIFKhqnKAOdyse0VVaei-5" value="&lt;h4&gt;&lt;p&gt;DDD에서 Aggregate는 단일 Aggregate Root를 가져야 합니다.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;일관성 유지: Aggregate Root를 통해서만 Aggregate 내부의 객체들에 접근하고 수정할 수 있기 때문에, 데이터의 일관성을 유지할 수 있습니다.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;경계 정의: Aggregate Root는 Aggregate의 경계를 명확히 정의하며, 외부에서 내부 객체들에 직접 접근하지 못하게 합니다.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;트랜잭션 관리: Aggregate는 하나의 트랜잭션 단위로 관리됩니다. Aggregate Root를 통해서만 변경이 이루어지므로, 트랜잭션 내에서 일관된 상태를 유지할 수 있습니다.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;구성 이해하기&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Post 엔티티&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;는 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Aggregate Root&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;로서 &lt;/span&gt;&lt;code style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Content VO&lt;/code&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;와 &lt;/span&gt;&lt;code style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Attachment&lt;/code&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt; 엔티티를 포함합니다.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Content&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;와 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Attachment&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;는 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Post&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;를 통해서만 접근하거나 수정할 수 있으며, 이들은 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Post&lt;/strong&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;의 라이프사이클에 종속됩니다.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Aggregate 내부의 구조는 반드시 계층적이어야 하는 것은 아니지만, 모든 내부 객체들이 &lt;strong&gt;Aggregate Root&lt;/strong&gt;에 종속적이어야 합니다.&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-119" y="-570" width="409" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="4BceW0HvGrzQIXd9FTao" name="피드 - 서브 도메인">
-    <mxGraphModel dx="2261" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1967" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2119,6 +2119,409 @@
         </mxCell>
         <mxCell id="Ee8uc--0W8PhUhpw-OPh-30" value="&lt;h4&gt;데이터 일괄 조회(Batch Fetching)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;여러 &lt;strong&gt;PostId&lt;/strong&gt;를 한 번의 요청으로 조회하여 &lt;strong&gt;네트워크 통신 횟수&lt;/strong&gt;를 줄입니다.&lt;/li&gt;&lt;li&gt;예를 들어, &lt;strong&gt;gRPC&lt;/strong&gt;나 &lt;strong&gt;REST API&lt;/strong&gt;에서 &lt;strong&gt;bulk endpoint&lt;/strong&gt;를 제공하여 여러 게시글을 한 번에 가져옵니다.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;h4&gt;캐싱(Caching)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Feed 서버&lt;/strong&gt;나 &lt;strong&gt;클라이언트&lt;/strong&gt; 측에서 &lt;strong&gt;게시글 데이터&lt;/strong&gt;를 캐싱합니다.&lt;/li&gt;&lt;li&gt;자주 조회되는 게시글에 대해 &lt;strong&gt;Redis&lt;/strong&gt;와 같은 인메모리 데이터 저장소를 활용합니다.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;캐시 만료 정책&lt;/strong&gt;을 설정하여 데이터 일관성을 유지합니다.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;h4&gt;데이터 중재 계층(Data Mediation Layer)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;별도의 &lt;strong&gt;API Gateway&lt;/strong&gt;나 BFF(Backend for Frontend)를 두어 데이터 조합을 처리합니다.&lt;/li&gt;&lt;li&gt;클라이언트는 단일 엔드포인트를 통해 데이터를 가져옵니다.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="-690" y="490" width="440" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x57tbOrSAN7_kACccjSz" name="채팅 - 서브 도메인">
+    <mxGraphModel dx="2293" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-1" target="eqe6_pEIBcEvjUmYi9AG-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-491" y="140" />
+              <mxPoint x="-560" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-1" target="eqe6_pEIBcEvjUmYi9AG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-491" y="140" />
+              <mxPoint x="-410" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-1" value="Member &lt;br&gt;(Sync)&lt;br&gt;회원" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-531" y="60" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-2" target="eqe6_pEIBcEvjUmYi9AG-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-410" y="240" />
+              <mxPoint x="-514" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-2" target="eqe6_pEIBcEvjUmYi9AG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-2" target="eqe6_pEIBcEvjUmYi9AG-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-410" y="240" />
+              <mxPoint x="-308" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-2" value="VO&lt;br&gt;프로필 정보" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="161" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-3" value="name&lt;br&gt;회원명" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-554" y="271" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-4" value="nickname&lt;br&gt;닉네임" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="271" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-5" value="profilePictureUrl&lt;br&gt;프로필 URL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-357" y="271" width="97" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-6" value="id (Root Id)&lt;br&gt;회원 ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="160" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-12" target="EvhPkoyK92wu6p8-3LIG-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-224" y="480" />
+              <mxPoint x="-344" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-12" target="EvhPkoyK92wu6p8-3LIG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-12" target="eqe6_pEIBcEvjUmYi9AG-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-224" y="480" />
+              <mxPoint x="-105" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-12" value="ChatRoom&lt;br&gt;채팅방" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-264.25" y="406" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-13" value="Aggregate Root" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="60" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-14" target="eqe6_pEIBcEvjUmYi9AG-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="130" />
+              <mxPoint x="-140" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-14" target="eqe6_pEIBcEvjUmYi9AG-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="130" />
+              <mxPoint x="-40" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-14" target="eqe6_pEIBcEvjUmYi9AG-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="130" />
+              <mxPoint x="60" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-14" target="eqe6_pEIBcEvjUmYi9AG-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="130" />
+              <mxPoint x="160" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-14" target="eqe6_pEIBcEvjUmYi9AG-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="130" />
+              <mxPoint x="260" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-14" target="EvhPkoyK92wu6p8-3LIG-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="130" />
+              <mxPoint x="390" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-14" target="EvhPkoyK92wu6p8-3LIG-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="130" />
+              <mxPoint x="550" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-14" value="ChatMessage&lt;br&gt;메시지" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-15" target="EvhPkoyK92wu6p8-3LIG-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-105" y="600" />
+              <mxPoint x="-253" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-15" target="EvhPkoyK92wu6p8-3LIG-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eqe6_pEIBcEvjUmYi9AG-15" target="EvhPkoyK92wu6p8-3LIG-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-105" y="600" />
+              <mxPoint x="36" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-15" value="participants&lt;br&gt;참여자 리스트&lt;br&gt;회원1, 회원2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="496" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-18" value="messageId&amp;nbsp;&lt;br&gt;(Root Id)&lt;br&gt;메시지 ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="150" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-20" value="ChatRoomID&lt;br&gt;메시지가 속한 채팅방의 ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="150" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-21" value="senderId&lt;br&gt;발신자 ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-22" value="Content&lt;br&gt;메시지 내용" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eqe6_pEIBcEvjUmYi9AG-23" value="sentTime&lt;br&gt;메시지 전송 시간" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-1" value="채팅방은 메시지를 보낼 수 있는 &lt;strong&gt;채널을 정의&lt;/strong&gt;합니다. 채팅방 자체가 너무 많은 정보를 가지면, 메시지와 같은 수천 개의 객체를 한꺼번에 로드하는 비효율적인 일이 발생할 수 있기 때문에, 채팅방은 그 &lt;strong&gt;구조와 참여자 정보&lt;/strong&gt;만 유지하고 메시지와의 결합을 피합니다.&lt;br&gt;&lt;br&gt;만약&amp;nbsp;&lt;code&gt;ChatRoom&lt;/code&gt;과 &lt;code&gt;ChatMessage&lt;/code&gt;를 하나의 Aggregate로 묶으면, 메시지 양이 많아질 때 &lt;strong&gt;수천 개의 메시지를 한꺼번에 로드&lt;/strong&gt;해야 하는 비효율이 발생합니다." style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="30" y="330" width="280" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-2" value="채팅에 참여하는 사용자의 정보를 관리하기 위한 독립적인 도메인입니다. 회원은 채팅방이나 메시지와 결합되면 안 되며, 독립적인 Aggregate로 관리되어야 합니다." style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="240" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-3" value="메시지는 독립적인 Aggregate로 관리하여, 개별 메시지가 독립적으로 처리될 수 있도록 합니다. 이는 메시지의 조회, 생성, 업데이트, 삭제 등의 기능을 수행하는 데 있어 중요한 역할을 합니다." style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="40" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-4" target="EvhPkoyK92wu6p8-3LIG-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="391" />
+              <mxPoint x="410" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-4" target="EvhPkoyK92wu6p8-3LIG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-4" target="EvhPkoyK92wu6p8-3LIG-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="391" />
+              <mxPoint x="610" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-4" target="EvhPkoyK92wu6p8-3LIG-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="391" />
+              <mxPoint x="726" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-4" target="EvhPkoyK92wu6p8-3LIG-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="391" />
+              <mxPoint x="855" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-4" value="AttachedFile&lt;br&gt;파일 첨부" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="321" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-5" value="fileId&lt;br&gt;(Root Id)&lt;br&gt;파일 ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="406" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-7" value="fileName&lt;br&gt;파일 이름" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="406" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-8" value="fileUrl&lt;br&gt;파일 저장 위치 (URL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="406" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-9" value="fileType&lt;br&gt;파일 유형 (예: 이미지, 비디오, PDF 등)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="671" y="406" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-10" value="fileSize&lt;br&gt;파일 크기 (바이트)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="406" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-11" value="Set&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token generics&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(209, 154, 102);&quot; class=&quot;token generics&quot;&gt;AttachedFile&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token generics&quot;&gt;&amp;gt;&lt;/span&gt; attachedFiles&lt;br&gt;첨부된 파일 리스트 (도메인)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-19" target="EvhPkoyK92wu6p8-3LIG-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="150" />
+              <mxPoint x="750" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-19" target="EvhPkoyK92wu6p8-3LIG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-19" target="EvhPkoyK92wu6p8-3LIG-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="150" />
+              <mxPoint x="952" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-19" value="MessageReadStatus&lt;br&gt;읽음 상태" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="787.5" y="80" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-20" value="readStatusId (Root Id)&lt;br&gt;읽음 상태 ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="165" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-23" value="readerId&lt;br&gt;이 메시지를 읽은 회원 ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="165" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-24" value="readTime&lt;br&gt;읽은 시간" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="912.5" y="165" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-31" value="없애도 되는 &lt;br&gt;정보" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-32" value="&lt;strong&gt;사용자가 특정 채팅방에 들어갈 때&lt;/strong&gt;, 해당 사용자가 읽지 않은 메시지를 모두 &lt;strong&gt;읽음 처리&lt;/strong&gt;할 수 있습니다." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="940" y="80" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-34" value="채팅방 생성 시간" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="496" width="91.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-36" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;사용자가 채팅방 목록을 봤을 때 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;각 채팅방에 읽지 않은 메시지의 수&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;가 표시된다면, 사용자는 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;어느 채팅방에 새로운 메시지가 있는지&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; 즉시 알 수 있습니다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;이는 현대적인 메시징 애플리케이션에서 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;기본적인 사용자 경험&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;으로 자리잡았습니다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;예를 들어, 카카오톡, WhatsApp, 페이스북 메신저 같은 애플리케이션에서 사용자는 각 채팅방의 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;읽지 않은 메시지 수를 아이콘이나 숫자로 쉽게 확인&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;할 수 있습니다.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="710" y="230" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-37" value="채팅방 상태 (활성/비활성)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="496" width="91.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-39" value="Set&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token generics&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(209, 154, 102);&quot; class=&quot;token generics&quot;&gt;MessageReadStatus&lt;/span&gt;&lt;span style=&quot;color: rgb(171, 178, 191);&quot; class=&quot;token generics&quot;&gt;&amp;gt;&lt;/span&gt; readStatuses&lt;br&gt;읽음 상태 (도메인)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-4" target="EvhPkoyK92wu6p8-3LIG-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-50" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-4" target="EvhPkoyK92wu6p8-3LIG-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="331" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-19" target="EvhPkoyK92wu6p8-3LIG-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-52" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EvhPkoyK92wu6p8-3LIG-19" target="EvhPkoyK92wu6p8-3LIG-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="798" y="90" as="sourcePoint" />
+            <mxPoint x="640" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-53" value="이러한 구조에서 AttachedFile과 MessageReadStatus는 독립적인 Aggregate가 아니라 ChatMessage Aggregate의 내부 Entity로 존재합니다. 이들은 ChatMessage를 통해서만 접근되고 관리되며, ChatMessage의 생명주기에 종속됩니다. 이는 DDD의 핵심 원칙인 &quot;하나의 트랜잭션은 하나의 Aggregate만을 수정해야 한다&quot;는 규칙을 지키는데 도움이 됩니다." style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="30" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-57" value="memberId&lt;br&gt;참여자 회원 ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298.5" y="630" width="91.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-58" value="unreadMessageCount&lt;br&gt;해당 참여자가 읽지 않은 메시지 수" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="630" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvhPkoyK92wu6p8-3LIG-59" value="joinedAt&lt;br&gt;참여 시간" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="630" width="91.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="him0yxuZLpys3KVSj2RQ" name="페이지-11">
+    <mxGraphModel dx="2546" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rXWKtzq0LEpoDbltG-Qi-1" target="rXWKtzq0LEpoDbltG-Qi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-1" value="클라이언트&lt;br&gt;서버 (콘텐츠)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="161" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-6" value="유레카&lt;br&gt;디스커버리 서버" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="80" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rXWKtzq0LEpoDbltG-Qi-8" target="rXWKtzq0LEpoDbltG-Qi-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-780" y="50" />
+              <mxPoint x="-1500" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-31" value="6. 콘텐츠 서버로 최종 응답 반환&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rXWKtzq0LEpoDbltG-Qi-30">
+          <mxGeometry x="0.0081" y="-1" relative="1" as="geometry">
+            <mxPoint x="34" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-8" value="회원 서버 #1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-9" value="회원 서버 #2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-10" value="회원 서버 #3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXWKtzq0LEpoDbltG-Qi-14" target="rXWKtzq0LEpoDbltG-Qi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-28" value="5. 회원 서버 #1 선택해서&lt;br&gt;gRPC 요청 처리 &amp;amp; 응답 생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rXWKtzq0LEpoDbltG-Qi-27">
+          <mxGeometry x="0.1307" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-14" value="ALB&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;로드 밸런서&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="160" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;1. gRPC 요청 생성&lt;/strong&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;콘텐츠 서버에서 클라이언트 요청을 처리하기 위해 gRPC 요청을 준비합니다.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;p style=&quot;background-color: initial; display: inline !important;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;2. Eureka 서비스 디스커버리&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;콘텐츠 서버는 &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;USER-SERVICE&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;에 대해 Eureka 서버에 요청하고 활성화된 서버 리스트를 받습니다.&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;p style=&quot;background-color: initial; display: inline !important;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;3. 로드 밸런싱&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ALB는 Eureka에서 받은 활성 서버 리스트 중 하나를 선택합니다(예: 회원 서버 #1).&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;p style=&quot;background-color: initial; display: inline !important;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;4. gRPC 요청 전달&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ALB는 콘텐츠 서버의 요청을 선택된 회원 서버로 전달합니다.&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;p style=&quot;background-color: initial; display: inline !important;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;5. 회원 서버에서 요청 처리&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;선택된 회원 서버가 gRPC 요청을 처리하고 응답을 생성합니다.&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;p style=&quot;background-color: initial; display: inline !important;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;6. 응답 반환&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;생성된 응답은 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;회원 서버에서 콘텐츠 서버로 직접 전달&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;됩니다. 이 과정에서 ALB를 거치지 않습니다.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-1500" y="390" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.461;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rXWKtzq0LEpoDbltG-Qi-35" target="rXWKtzq0LEpoDbltG-Qi-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-580" y="200" as="sourcePoint" />
+            <mxPoint x="-890" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXWKtzq0LEpoDbltG-Qi-35" target="rXWKtzq0LEpoDbltG-Qi-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-580" y="200" as="sourcePoint" />
+            <mxPoint x="-890" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-35" value="&lt;span style=&quot;background-color: initial;&quot;&gt;각 회원 서버는 실행 시 &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Eureka 클라이언트&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;를 통해 자신의 정보를 Eureka 서버에 등록합니다.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;user-service-1&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;br&gt;&lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;user-service-2&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;br&gt;&lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;user-service-3&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="145.5" width="230" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="rXWKtzq0LEpoDbltG-Qi-36" value="유레카&lt;br&gt;디스커버리 서버" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="290" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
