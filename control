@@ -7,8 +7,14 @@ kubectl apply -f postgres.yaml
 # 전체 삭제
 kubectl delete namespace monitoring
 kubectl delete namespace kafka-system
+kubectl delete namespace mongo-system
 
 kubectl delete -f jaeger.yaml
 kubectl delete -f kafka.yaml
 kubectl delete -f mongodb.yaml
 kubectl delete -f postgres.yaml
+
+# UI 접속방법
+카프카: http://localhost:30080/
+몽고: http://localhost:30081/
+- admin/admin123
