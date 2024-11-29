@@ -18,3 +18,5 @@ kubectl delete -f postgres.yaml
 카프카: http://localhost:30080/
 몽고: http://localhost:30081/
 - admin/admin123
+Jaeger: http://localhost:30686/search
+k8s 대시보드: http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login
