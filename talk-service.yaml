@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: talk-service
+  namespace: default
+  labels:
+    app: talk-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: talk-service
+  template:
+    metadata:
+      labels:
+        app: talk-service
+    spec:
+      containers:
+        - name: talk-service
+          image: your-docker-repo/talk-service:latest  # 실제 Docker 이미지로 변경
+          ports:
+            - containerPort: 8093
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: "prod"  # 필요한 프로파일 설정
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: talk-service
+  namespace: default
+  labels:
+    app: talk-service
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8093
+      targetPort: 8093
+      protocol: TCP
+      name: http
+  selector:
+    app: talk-service
